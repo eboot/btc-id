@@ -1,0 +1,13 @@
+{
+  "name": "btc-id",
+  "version": "1.0.0",
+  "description": "A Node.js-based Implementation of Bitcoin Indonesia's Trade API",
+  "main": "index.js",
+  "repository": "https://github.com/ubunteroz/btc-id",
+  "author": "Surya Handika Putratama",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0"
+  }
+}
