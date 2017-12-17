@@ -1,4 +1,4 @@
-btc-id
+btc-id [![npm version](https://badge.fury.io/js/btc-id.svg)](https://badge.fury.io/js/btc-id)
 ======
 A Node.js-based Implementation of Bitcoin Indonesia's Trade API
 
@@ -6,10 +6,19 @@ A Node.js-based Implementation of Bitcoin Indonesia's Trade API
 This implementation is compatible with Trade API v1.7. All API request methods are implemented using Request and Bluebird.
 
 ## Important Notes
-* A private and secret key must be set before making private API requests. See [this link](https://vip.bitcoin.co.id/trade_api).
+* A private and secret key must be set before making any private API requests. See [this link](https://vip.bitcoin.co.id/trade_api).
 * Correct order of parallel private API requests cannot be guaranteed because of asynchronous nature of JavaScript and network latency. Some requests will fail because of incorrect nonce. _Tell your nice trading bot to handle errors carefully and just don't go too fast_.
 * It is recommended to use proven third party library to parse numbers and do arithmetic calculations, such as `bignumber.js`. You know, JavaScript is bad at math and _I am pretty sure you don't want to lose even only a small fraction of your precious digital golds_.
 * I am not responsible for any future profits, losses or damages caused by this library. Cryptocurrency trading is always considered to be high-risk activity. By using this library, it is assumed that you know exactly what you are doing.
+
+## Installation
+```
+$ npm install btc-id
+```
+...or if you use Yarn
+```
+$ yarn add btc-id
+```
 
 ## Usage
 ```javascript
